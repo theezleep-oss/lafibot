@@ -13,7 +13,8 @@ from datetime import datetime, timedelta
 # ==========================================
 # 1. 환경 설정 및 데이터 관리
 # ==========================================
-TOKEN = "MTQ5NTE0MzgyMDQzMjUxMTE4Ng.GfmTjs.-IR6EqqMommVTggLASMRZ8WMzjyIIfqgfRZtiI"
+TOKEN = os.getenv("DISCORD_TOKEN")
+
 CLIENT_ID = "1495143820432511186"
 CLIENT_SECRET = "XAH3KU_T9nZ1hfmetfIQ_Zm8YSFzX_6g"
 REDIRECT_URI = "http://127.0.0.1:5000/callback"
