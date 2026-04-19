@@ -1,0 +1,19 @@
+{
+    "1377164566030585876": {
+        "name": "구마린",
+        "balance": 68000,
+        "is_admin": true,
+        "streak": 1,
+        "last_date": "2026-04-19",
+        "avatar": "https://cdn.discordapp.com/avatars/1377164566030585876/d30e279add106c969ab95bccd2d8989e.png",
+        "membership": "[골드] 파랭이"
+    },
+    "1462710593214742609": {
+        "name": "김희연",
+        "balance": 0,
+        "last_date": "",
+        "streak": 0,
+        "is_admin": false,
+        "avatar": "https://cdn.discordapp.com/avatars/1462710593214742609/d3012f88b3d7f12c477f96e136bdd386.png"
+    }
+}
