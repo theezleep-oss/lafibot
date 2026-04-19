@@ -14,12 +14,9 @@ from datetime import datetime, timedelta
 # 1. 환경 설정 및 데이터 관리
 # ==========================================
 TOKEN = os.getenv("DISCORD_TOKEN")
-
-CLIENT_ID = "1495143820432511186"
-CLIENT_SECRET = "XAH3KU_T9nZ1hfmetfIQ_Zm8YSFzX_6g"
-REDIRECT_URI = "http://127.0.0.1:5000/callback"
-GUILD_ID = 1495143356391755776
-MY_GUILD = discord.Object(id=GUILD_ID)
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+REDIRECT_URI = os.getenv("REDIRECT_URI", "http://127.0.0.1:5000/callback")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "lafi_hub_premium_2026_key"
